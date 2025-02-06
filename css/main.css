@@ -4,14 +4,12 @@
   --bg-color: #ffffff;
   --btn-bg: #f5f7f8;
 }
-
 .lightMode {
   --font-color: #222222;
   --font-color-opa: #22222233;
   --bg-color: #ffffff;
   --btn-bg: #f5f7f8;
 }
-
 .darkMode {
   --font-color: #ffffff;
   --font-color-opa: #ffffff33;
@@ -347,7 +345,7 @@ main > section {
   line-height: 22px;
   padding: 0 5px;
   border-radius: 5px;
-  background: #333;
+  background: var(--font-color);
   color: var(--bg-color);
   position: absolute;
   left: 50%;
@@ -363,7 +361,7 @@ main > section {
   transform: translateX(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: #333 transparent transparent transparent;
+  border-color: var(--font-color) transparent transparent transparent;
 }
 
 /* project */
